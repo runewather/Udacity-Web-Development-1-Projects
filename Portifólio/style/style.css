@@ -1,0 +1,266 @@
+@keyframes zoomIn {
+    0% {opacity: 0; -webkit-transform: scale3d(.3, .3, .3); transform: scale3d(.3, .3, .3);}
+    50% {opacity: 1;}
+} 
+
+a:hover {
+    text-decoration: none;
+}
+
+.header-titles {
+    font-family: "Amatic SC", "Times New Roman", Times, serif;        
+    color: #607D8B;
+    clear: right;
+    float: right;        
+}
+
+.container {        
+    margin-top: 16px;
+    margin-bottom: 16px;    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 2px solid #607D8B;
+    border-radius: 5px; 
+    width: 100%;   
+}
+
+.full-width {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #site-logo {
+        width: 96px;
+        height: 96px;
+    }
+
+    #header-title {
+        font-size: 38px;
+        margin-top: 16px;
+    }
+
+    #header-subtitle {
+        font-size: 18px;
+    }
+
+    #aboutme-img {
+        width: 128px;
+        height: 128px;
+        display: block; 
+        margin: auto;
+        animation: zoomIn 1s linear;    
+    }
+
+    p {
+        font-size: 18px;
+        text-justify: inter-word;
+        text-align: center; 
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        color: #607D8B;
+    }
+
+    .titles {
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-weight: bold;    
+        color: #607D8B;
+        font-size: 26px;
+    }
+
+    .technology {
+        text-align: center;     
+        margin: 0 auto;     
+    }
+
+    .technology-icon {
+        max-width: 64px;
+        height: 64px;        
+        margin: 0 auto;  
+        animation: zoomIn 1s ease-in;      
+    }
+
+    .technology-icon-figcaption {
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-size: 12px;
+        color: #607D8B;
+        text-align: center;
+    }
+
+    .projects-figcaption {
+        text-align: center;        
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-size: 18px;
+        color: #607D8B;
+    }
+
+    .projects-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    #main-project-img {
+        max-width: 100%;
+        margin: auto;
+        display: block;   
+        height: 200px;     
+    }
+
+    .projects-iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+     .contact-icon {
+        width: 64px;
+        height: 64px;        
+    }
+
+    .contact-title {
+        vertical-align: bottom;
+        display: inline-block;
+        font-family: "Amatic SC", "Times New Roman", Times, serif;        
+        color: #607D8B;
+    }
+
+    .contact {       
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .titles {
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-weight: bold;    
+        color: #607D8B;
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 32px;
+        text-justify: inter-word;
+        text-align: center; 
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        color: #607D8B;
+    }
+
+    .technology-icon {
+        max-width: 128px;
+        height: 128px;        
+        margin: 0 auto;  
+        animation: zoomIn 1s ease-in;      
+    }
+
+    .technology-icon-figcaption {
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-size: 32px;
+        color: #607D8B;
+        
+    }
+
+    .technology {
+        text-align: center;     
+        margin: 0 auto;     
+    }
+
+    .projects-figcaption {
+        text-align: center;        
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-size: 18px;
+        color: #607D8B;
+    }
+
+    .projects-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .projects-iframe {
+        width: 100%;
+        height: 160px;
+    }
+
+    .contact-icon {
+        width: 64px;
+        height: 64px;
+        text-align: center;
+    }
+
+    .contact-title {
+        vertical-align: bottom;
+        display: inline-block;
+        font-family: "Amatic SC", "Times New Roman", Times, serif;        
+        color: #607D8B;
+    }
+
+    #header-title {
+        font-size: 76px;
+        margin-top: 16px;
+    }
+
+    #aboutme-img {
+        width: 196px;
+        height: 196px;
+        display: block; 
+        margin: auto;
+        animation: zoomIn 1s linear;    
+    }
+
+}
+
+@media screen and (min-width: 992px) {  
+
+    .titles {
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-weight: bold;    
+        color: #607D8B;
+    }
+
+    .header-titles {
+        font-family: "Amatic SC", "Times New Roman", Times, serif;        
+        color: #607D8B;
+        clear: right;
+        float: right;        
+    }
+    
+    #header-title {
+        font-size: 96px;
+        margin-top: 16px;
+    }
+
+    #header-divider {
+        clear: right;
+        border: 2px solid #607D8B;        
+    }
+
+    #main-project-img {
+        max-width: 100%;
+        margin: auto;
+        display: block;        
+    }
+
+    #aboutme-img {
+        width: 196px;
+        height: 196px;
+        display: block; 
+        margin: auto;
+        animation: zoomIn 1s linear;    
+    }
+
+    .projects-img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .projects-iframe {
+        width: 100%;
+        height: 160px;
+    }
+
+    .projects-figcaption {
+        text-align: center;        
+        font-family: "Amatic SC", "Times New Roman", Times, serif; 
+        font-size: 32px;
+        color: #607D8B;
+    }
+}
