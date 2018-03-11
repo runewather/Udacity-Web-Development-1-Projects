@@ -1,0 +1,59 @@
+* {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+h1 {
+    color: #FFEB3B;
+    font-size: 70px;
+    margin: 0.2em;
+    text-shadow: 4px 4px 10px black;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#content {
+    border: 5px solid red;
+    background-color: #90CAF9;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 4px 4px 10px black;
+    opacity: 0.9;
+}
